@@ -19,8 +19,7 @@ const Calculator = () => {
                 setInput(parseFloat(input).toString());
                 return
             }
-            const [num1, num2] = input.split(operator).
-                map(parseFloat);
+            const [num1, num2] = input.split(operator).map(parseFloat);
             let result;
             switch (operator) {
                 case '+':
